@@ -115,7 +115,7 @@ img{
   height: 20px;
   margin-right: 8px;
   background-image: url("../img/dark-mode.png");
-  background-size: 85%;
+  background-size: 90%;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -164,7 +164,7 @@ main{
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-   color: #111517;
+  color: #111517;
 }
 
 /* flags */

@@ -1,0 +1,43 @@
+.site-header{
+  background: #2B3844;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+.site-title{
+  color: #FFFFFF;
+}
+.dark-mode-button{
+  color: #FFFFFF;
+}
+.dark-mode-button::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url("../img/dark-mode2.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main{
+  background: #202C36;;
+}
+.input{
+  background: #2B3844;
+}
+.search{
+  width: 480px;
+  padding-left: 76px;
+  background-image: url("../img/search-dark.png");
+  background-repeat: no-repeat;
+  background-position: 32px center;
+}
+#regions{
+  background: #2B3844;
+}
+.search::placeholder,.region, .region::placeholder{
+  color: #FFFFFF;
+}
+.flag-link{
+  background: #2B3844;
+  color: #FFFFFF;
+}

@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rest countries API</title>
   <link rel="stylesheet" href="style/normalize.css">
-  <link rel="stylesheet" href="style/main.css">
+  <link class="dark" id="link" rel="stylesheet" href="style/main.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-container">
       <h2 class="site-title">Where in the world?</h2>
-      <button class="dark-mode-button">Dark Mode</button>
+      <button class="dark-mode-button" onclick="dark()">Dark Mode</button>
     </div>
   </header>
   <main>
@@ -181,7 +181,8 @@
         </ul>
       </section>
     </div>
-
   </main>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
