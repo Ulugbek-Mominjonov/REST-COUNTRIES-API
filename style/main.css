@@ -69,6 +69,10 @@ body{
   color: #111517;
   background-color: #F2F2F2;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 .container{
   max-width: 1360px;
   padding-right: 40px;
@@ -130,6 +134,7 @@ main{
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  margin-bottom: 48px;
 }
 .input{
   padding-top: 18px;
@@ -160,4 +165,53 @@ main{
   font-size: 14px;
   line-height: 20px;
    color: #111517;
+}
+
+/* flags */
+.flag-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 264px);
+  gap: 70px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.flag-item{
+  width: 264px;
+}
+.flag-link{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  background: #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #111517;
+}
+.flag-img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+}
+.flag-info-box{
+  padding: 24px;
+}
+.flag-name{
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+.flag-data{
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+.flag-data:not(:last-child){
+  margin-bottom: 8px;
+}
+.flag-data span{
+  opacity: 0.7;
 }
