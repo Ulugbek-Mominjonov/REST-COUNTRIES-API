@@ -1,11 +1,7 @@
-.site-header{
+.site-header,.input{
   background: #2B3844;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
 }
-.site-title{
-  color: #FFFFFF;
-}
-.dark-mode-button{
+.site-title, .dark-mode-button, .search::placeholder,.region, .region::placeholder{
   color: #FFFFFF;
 }
 .dark-mode-button::before{
@@ -21,21 +17,12 @@
 main{
   background: #202C36;;
 }
-.input{
-  background: #2B3844;
-}
 .search{
   width: 480px;
   padding-left: 76px;
   background-image: url("../img/search-dark.png");
   background-repeat: no-repeat;
   background-position: 32px center;
-  color: #FFFFFF;
-}
-#regions{
-  background: #2B3844;
-}
-.search::placeholder,.region, .region::placeholder{
   color: #FFFFFF;
 }
 .flag-link{
