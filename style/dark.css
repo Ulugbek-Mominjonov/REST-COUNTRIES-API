@@ -30,6 +30,7 @@ main{
   background-image: url("../img/search-dark.png");
   background-repeat: no-repeat;
   background-position: 32px center;
+  color: #FFFFFF;
 }
 #regions{
   background: #2B3844;
