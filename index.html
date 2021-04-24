@@ -12,16 +12,20 @@
     <header class="site-header">
       <div class="container header-container">
         <h1 class="site-title">Where in the world?</h1>
-        <button class="dark-mode-button" onclick="dark()">Dark Mode</button>
+        <button class="dark-mode-button" type="button" onclick="dark()">
+          Dark Mode
+        </button>
       </div>
     </header>
     <main>
       <div class="container main-container">
-        <form action="#" class="search-form">
+        <form action="#" class="search-form" method="GET">
           <input
             class="input search"
             type="text"
             placeholder="Search for a country…"
+            name="search-input"
+            required
           />
 
           <input
@@ -53,7 +57,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Germany</h3>
+                  <h2 class="flag-name">Germany</h2>
                   <p class="flag-data">Population: <span>81,770,900</span></p>
                   <p class="flag-data">Region: <span>Europe</span></p>
                   <p class="flag-data">Capital: <span>Berlin</span></p>
@@ -71,7 +75,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">United States of America</h3>
+                  <h2 class="flag-name">United States of America</h2>
                   <p class="flag-data">Population: <span>323,927,000</span></p>
                   <p class="flag-data">Region: <span>Amencas</span></p>
                   <p class="flag-data">Capital: <span>Washington, D.C</span></p>
@@ -89,7 +93,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Brazil</h3>
+                  <h2 class="flag-name">Brazil</h2>
                   <p class="flag-data">Population: <span>206,135,893</span></p>
                   <p class="flag-data">Region: <span>Americas</span></p>
                   <p class="flag-data">Capital: <span>Brasília</span></p>
@@ -107,7 +111,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Iceland</h3>
+                  <h2 class="flag-name">Iceland</h2>
                   <p class="flag-data">Population: <span>334,300</span></p>
                   <p class="flag-data">Region: <span>Europe</span></p>
                   <p class="flag-data">Capital: <span>Reykjavík</span></p>
@@ -125,7 +129,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Afghanistan</h3>
+                  <h2 class="flag-name">Afghanistan</h2>
                   <p class="flag-data">Population: <span>27,657,145</span></p>
                   <p class="flag-data">Region: <span>Asia</span></p>
                   <p class="flag-data">Capital: <span>Kabul</span></p>
@@ -143,7 +147,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Åland Islands</h3>
+                  <h2 class="flag-name">Åland Islands</h2>
                   <p class="flag-data">Population: <span>28,875</span></p>
                   <p class="flag-data">Region: <span>Europe</span></p>
                   <p class="flag-data">Capital: <span>Mariehamn</span></p>
@@ -161,7 +165,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Albania</h3>
+                  <h2 class="flag-name">Albania</h2>
                   <p class="flag-data">Population: <span> 2,886,026</span></p>
                   <p class="flag-data">Region: <span>Europe</span></p>
                   <p class="flag-data">Capital: <span>Tirana</span></p>
@@ -179,7 +183,7 @@
                   height="160"
                 />
                 <div class="flag-info-box">
-                  <h3 class="flag-name">Algeria</h3>
+                  <h2 class="flag-name">Algeria</h2>
                   <p class="flag-data">Population: <span>40,400,000</span></p>
                   <p class="flag-data">Region: <span>Africa</span></p>
                   <p class="flag-data">Capital: <span>Algiers</span></p>
